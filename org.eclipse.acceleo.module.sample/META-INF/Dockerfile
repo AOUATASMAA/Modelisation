@@ -1,7 +1,0 @@
-
----
-application
--
-FROM: 
-RUN: 
-COPY: 

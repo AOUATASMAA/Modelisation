@@ -1,8 +1,0 @@
-
----
-application
--
-name: App2
-host: 2-l2
-memory: 256M
-instance: 2
