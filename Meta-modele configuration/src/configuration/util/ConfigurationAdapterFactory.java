@@ -1,0 +1,256 @@
+/**
+ * <copyright>
+ * </copyright>
+ *
+ * $Id$
+ */
+package configuration.util;
+
+import configuration.*;
+
+import org.eclipse.emf.common.notify.Adapter;
+import org.eclipse.emf.common.notify.Notifier;
+
+import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;
+
+import org.eclipse.emf.ecore.EObject;
+
+/**
+ * <!-- begin-user-doc -->
+ * The <b>Adapter Factory</b> for the model.
+ * It provides an adapter <code>createXXX</code> method for each class of the model.
+ * <!-- end-user-doc -->
+ * @see configuration.ConfigurationPackage
+ * @generated
+ */
+public class ConfigurationAdapterFactory extends AdapterFactoryImpl {
+	/**
+	 * The cached model package.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected static ConfigurationPackage modelPackage;
+
+	/**
+	 * Creates an instance of the adapter factory.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ConfigurationAdapterFactory() {
+		if (modelPackage == null) {
+			modelPackage = ConfigurationPackage.eINSTANCE;
+		}
+	}
+
+	/**
+	 * Returns whether this factory is applicable for the type of the object.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns <code>true</code> if the object is either the model's package or is an instance object of the model.
+	 * <!-- end-user-doc -->
+	 * @return whether this factory is applicable for the type of the object.
+	 * @generated
+	 */
+	public boolean isFactoryForType(Object object) {
+		if (object == modelPackage) {
+			return true;
+		}
+		if (object instanceof EObject) {
+			return ((EObject)object).eClass().getEPackage() == modelPackage;
+		}
+		return false;
+	}
+
+	/**
+	 * The switch that delegates to the <code>createXXX</code> methods.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ConfigurationSwitch modelSwitch =
+		new ConfigurationSwitch() {
+			public Object caseService(Service object) {
+				return createServiceAdapter();
+			}
+			public Object caseProvider(Provider object) {
+				return createProviderAdapter();
+			}
+			public Object caseTechnology(Technology object) {
+				return createTechnologyAdapter();
+			}
+			public Object caseUser(User object) {
+				return createUserAdapter();
+			}
+			public Object caseAccount(Account object) {
+				return createAccountAdapter();
+			}
+			public Object caseApplication(Application object) {
+				return createApplicationAdapter();
+			}
+			public Object caseType_service(Type_service object) {
+				return createType_serviceAdapter();
+			}
+			public Object caseProcfile(Procfile object) {
+				return createProcfileAdapter();
+			}
+			public Object casemanifest(manifest object) {
+				return createmanifestAdapter();
+			}
+			public Object defaultCase(EObject object) {
+				return createEObjectAdapter();
+			}
+		};
+
+	/**
+	 * Creates an adapter for the <code>target</code>.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param target the object to adapt.
+	 * @return the adapter for the <code>target</code>.
+	 * @generated
+	 */
+	public Adapter createAdapter(Notifier target) {
+		return (Adapter)modelSwitch.doSwitch((EObject)target);
+	}
+
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.Service <em>Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.Service
+	 * @generated
+	 */
+	public Adapter createServiceAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.Provider <em>Provider</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.Provider
+	 * @generated
+	 */
+	public Adapter createProviderAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.Technology <em>Technology</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.Technology
+	 * @generated
+	 */
+	public Adapter createTechnologyAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.User <em>User</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.User
+	 * @generated
+	 */
+	public Adapter createUserAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.Account <em>Account</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.Account
+	 * @generated
+	 */
+	public Adapter createAccountAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.Application <em>Application</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.Application
+	 * @generated
+	 */
+	public Adapter createApplicationAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.Type_service <em>Type service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.Type_service
+	 * @generated
+	 */
+	public Adapter createType_serviceAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.Procfile <em>Procfile</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.Procfile
+	 * @generated
+	 */
+	public Adapter createProcfileAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link configuration.manifest <em>manifest</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see configuration.manifest
+	 * @generated
+	 */
+	public Adapter createmanifestAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for the default case.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @generated
+	 */
+	public Adapter createEObjectAdapter() {
+		return null;
+	}
+
+} //ConfigurationAdapterFactory

@@ -1,0 +1,7 @@
+
+---
+application
+-
+FROM: 
+RUN: 
+COPY: 

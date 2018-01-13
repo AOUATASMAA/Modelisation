@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Meta-modele configuration/src"
+    modelPluginID="Meta-modele_configuration" modelName="Configuration" importerID="org.eclipse.emf.importer.ecore"
+    copyrightFields="false">
+  <foreignModel>Configuration.ecore</foreignModel>
+  <genPackages prefix="Configuration" resource="XML" disposableProviderFactory="true"
+      ecorePackage="Configuration.ecore#/">
+    <genClasses ecoreClass="Configuration.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Service/name_ser"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Configuration.ecore#//Service/possessed"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//Provider">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Provider/name_provider"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Configuration.ecore#//Provider/Based"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Configuration.ecore#//Provider/Connected"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Configuration.ecore#//Provider/Contained"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//Technology">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Technology/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Configuration.ecore#//Technology/Used"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//User">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//User/Familyname"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//User/Firstname"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//User/Numberphone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//User/Adress"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Configuration.ecore#//User/Integrated"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Configuration.ecore#//User/Have"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//Account">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Account/Email"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Account/Password"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//Application">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Application/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Configuration.ecore#//Application/own"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Configuration.ecore#//Application/possess"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Configuration.ecore#//Application/To"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//Type_service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Type_service/name_typ_ser"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//Procfile">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Procfile/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//manifest">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//manifest/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//manifest/host"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//manifest/memory"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//manifest/instance"/>
+    </genClasses>
+    <genClasses ecoreClass="Configuration.ecore#//Dockerfile">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Dockerfile/FROM"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Dockerfile/RUN"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Configuration.ecore#//Dockerfile/COPY"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

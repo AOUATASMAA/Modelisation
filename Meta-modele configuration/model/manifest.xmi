@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<configuration:manifest xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:configuration="www.configuration.com" xsi:schemaLocation="www.configuration.com Configuration.ecore"/>
