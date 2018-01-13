@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_bSK9gfa7EeerGM-aP78vPA" type="EcoreTools" name="Configuration" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_GuQk0PbMEeerGM-aP78vPA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_GuQk0_bMEeerGM-aP78vPA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_GuToIPbMEeerGM-aP78vPA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_VRgy4PbMEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//Procfile/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VRgy4fbMEeerGM-aP78vPA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_GuToIfbMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GuToIvbMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GuToI_bMEeerGM-aP78vPA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_GuToJPbMEeerGM-aP78vPA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_GuToJfbMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GuToJvbMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GuToJ_bMEeerGM-aP78vPA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_GuQk0fbMEeerGM-aP78vPA" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Configuration.ecore#//Procfile"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GuQk0vbMEeerGM-aP78vPA" x="10" y="105"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_dTtHsPbMEeerGM-aP78vPA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_dTtHs_bMEeerGM-aP78vPA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_dTtHtPbMEeerGM-aP78vPA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_qJu-8PbMEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//manifest/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qJu-8fbMEeerGM-aP78vPA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WVMA8PbNEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//manifest/host"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WVMA8fbNEeerGM-aP78vPA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Yl-X0PbNEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//manifest/memory"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Yl-X0fbNEeerGM-aP78vPA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_dnRugPbNEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//manifest/instance"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dnRugfbNEeerGM-aP78vPA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_dTtHtfbMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dTtHtvbMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dTwLAPbMEeerGM-aP78vPA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_dTwLAfbMEeerGM-aP78vPA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_dTwLAvbMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dTwLA_bMEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dTwLBPbMEeerGM-aP78vPA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_dTtHsfbMEeerGM-aP78vPA" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Configuration.ecore#//manifest"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTtHsvbMEeerGM-aP78vPA" x="150" y="105"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_lo1KIPbNEeerGM-aP78vPA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_lo4NcPbNEeerGM-aP78vPA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_lo4NcfbNEeerGM-aP78vPA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_v0jXQPbNEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//Dockerfie/FROM"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v0jXQfbNEeerGM-aP78vPA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_QvJwEPbOEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//Dockerfie/RUN"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QvJwEfbOEeerGM-aP78vPA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_UQwOkPbOEeerGM-aP78vPA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Configuration.ecore#//Dockerfie/COPY"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UQwOkfbOEeerGM-aP78vPA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_lo4NcvbNEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lo4Nc_bNEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lo4NdPbNEeerGM-aP78vPA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_lo4NdfbNEeerGM-aP78vPA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_lo4NdvbNEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lo4Nd_bNEeerGM-aP78vPA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lo4NePbNEeerGM-aP78vPA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_lo1KIfbNEeerGM-aP78vPA" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Configuration.ecore#//Dockerfie"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lo1KIvbNEeerGM-aP78vPA" x="303" y="134"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_bSK9gva7EeerGM-aP78vPA"/>
+  <element xmi:type="ecore:EPackage" href="Configuration.ecore#/"/>
+</notation:Diagram>
